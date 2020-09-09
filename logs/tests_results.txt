@@ -1,0 +1,16 @@
+test_upper_case_names (__main__.TestExercice) ... ERROR
+
+======================================================================
+ERROR: test_upper_case_names (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 17, in test_upper_case_names
+    output = list(map(exercice.majuscule, altered_words))
+  File "/home/runner/work/c03_ch2_ecriture-qyle-343/c03_ch2_ecriture-qyle-343/exercice.py", line 7, in majuscule
+    lettre = chr(ord(letter) - 32)
+NameError: name 'letter' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
